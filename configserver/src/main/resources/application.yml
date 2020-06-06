@@ -6,7 +6,11 @@ spring:
      server:
        git:
         uri: c:/mstraining-config
-        
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
 server:
-  port: 8888
-  
+  port: 8888  

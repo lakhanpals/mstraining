@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: productms
+  cloud:
+    config:
+      uri: http://configserver:8888
+  profiles:
+    active: dev
