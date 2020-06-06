@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: configserver
+
+server:
+  port: 8888
+  
+  cloud:
+    config:
+      server:
+        git:
+          uri: c:\mstraining

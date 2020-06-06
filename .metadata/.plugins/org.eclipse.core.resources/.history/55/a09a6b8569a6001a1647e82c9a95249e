@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: configserver
+
+#put the values here

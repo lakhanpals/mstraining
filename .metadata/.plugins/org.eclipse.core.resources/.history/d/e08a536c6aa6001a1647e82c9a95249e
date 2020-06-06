@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: configserver
+
+#put the values here
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: c:\mstraining
