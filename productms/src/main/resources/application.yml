@@ -3,6 +3,7 @@ management:
     web:
       exposure:
         include: '*'
+
 spring:
   h2:
     console:
@@ -13,7 +14,20 @@ spring:
   datasource:
     url: ${productms.datasource.url}
     username: ${productms.datasource.username}
-    password: ${productms.datasource.password}
-    driver-class-name: ${productms.datasource.driver:org.h2.Driver}
+    password: ${productms.datasource.password:}
+    driver-class-name: ${productms.datasource.driver}
   jpa:
     show-sql: true
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.int}
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:      
+      defaultZone: ${productms.eureka.url:http://localhost:8761/eureka}  
+
+server.port: 8080
+           

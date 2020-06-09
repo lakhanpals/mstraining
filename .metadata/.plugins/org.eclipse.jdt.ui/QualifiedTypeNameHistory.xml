@@ -8,13 +8,23 @@
 <fullyQualifiedTypeName name="com.msbootcamp.productms.model.ProductCategory"/>
 <fullyQualifiedTypeName name="com.msbootcamp.productms.model.ProductTag"/>
 <fullyQualifiedTypeName name="javax.transaction.Transactional"/>
-<fullyQualifiedTypeName name="com.msbootcamp.productms.model.Product"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="com.msbootcamp.productms.service.ProductService"/>
+<fullyQualifiedTypeName name="com.msbootcamp.productms.model.Product"/>
 <fullyQualifiedTypeName name="com.msbootcamp.productms.repo.ProductRepository"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="java.util.Optional"/>
+<fullyQualifiedTypeName name="org.springframework.web.client.RestTemplate"/>
+<fullyQualifiedTypeName name="org.springframework.http.HttpEntity"/>
+<fullyQualifiedTypeName name="com.msbootcamp.productms.model.DiscountRequest"/>
+<fullyQualifiedTypeName name="com.msbootcamp.productms.model.DiscountResponse"/>
+<fullyQualifiedTypeName name="org.springframework.http.HttpMethod"/>
+<fullyQualifiedTypeName name="com.msbootcamp.productms.model.ProductDTO"/>
 </qualifiedTypeNameHistroy>

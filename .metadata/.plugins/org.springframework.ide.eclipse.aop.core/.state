@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="productms"/>
+<aop-project name="eurekaserver"/>
 <aop-project name="configserver"/>
 </aop-reference-model>
