@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.msbootcamp.discountms.audit.AuditService;
+
 @RestController
 @RefreshScope
 public class DiscountController {
@@ -20,6 +22,9 @@ public class DiscountController {
 
 	@Autowired
 	DiscountDataMap discountDataMap;
+	
+	@Autowired
+	AuditService auditService;
 	
 	@PostConstruct
 	public void initBean() {
@@ -52,6 +57,7 @@ public class DiscountController {
 		DiscountResponse response = new DiscountResponse(request.getCategory(), request.getMrp(), drp,
 				fixedCategoryDiscount, onSpotDiscount);
 
+		auditService.publishAuditEvent(response);
 		return response;
 	}
 

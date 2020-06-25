@@ -1,0 +1,29 @@
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    prefer-same-zone-eureka: true
+    service-url:
+      defaultZone: ${eureka.url:http://localhost:8761/eureka}
+  instance:
+    instanceId: ${spring.application.name}:${random.int}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'    
+        
+spring:
+  zipkin:
+    base-url: ${zipkin.url:http://192.168.99.100:9411}
+    enabled: true
+    
+#spring:
+ # cloud:
+  #  gateway:
+   #   routes:
+    #  - id: productms
+     # - uri: lb://productms
+      #- predicates:
+       # - Path=/v4/product/**

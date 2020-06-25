@@ -19,6 +19,17 @@ spring:
   jpa:
     show-sql: true
 
+  rabbitmq:
+    host: ${rabbitmq.host:192.168.99.100}
+    port:  ${rabbitmq.port:5672}
+  cloud:
+    bus:
+      enabled: true
+      destination: configXchangebus
+  zipkin:
+    base-url: ${zipkin.url:http://192.168.99.100:9411}
+    enabled: true
+  
 eureka:
   instance:
     instance-id: ${spring.application.name}:${random.int}
@@ -27,7 +38,13 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:      
-      defaultZone: ${productms.eureka.url:http://localhost:8761/eureka}  
+      defaultZone: ${productms.eureka.url:http://192.168.99.100:8761/eureka}
+
+
+      
+feign:
+  hystrix:
+    enabled: true  
 
 server.port: 8080
            

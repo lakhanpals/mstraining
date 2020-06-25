@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: apigateway
+  cloud:
+    config:
+      uri: ${config.url:http://localhost:8888}
+  profiles:
+    active: dev
+    
+server:
+  port: 9092  

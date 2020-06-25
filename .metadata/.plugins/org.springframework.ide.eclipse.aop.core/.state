@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="AuditService"/>
+<aop-project name="apigateway"/>
+<aop-project name="discountms"/>
 <aop-project name="productms"/>
 <aop-project name="eurekaserver"/>
 <aop-project name="configserver"/>

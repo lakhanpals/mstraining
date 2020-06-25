@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: ${webauditms.activeprofiles:local}    
+  application:
+    name: webauditms
+  cloud:
+    config:
+      uri: ${config.server.uri:http://localhost:8888}
+      fail-fast: true
+      label: ${webauditms.configserver.labels:master}
+  main:
+    allow-bean-definition-overriding: true
+    

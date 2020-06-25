@@ -1,0 +1,62 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2 
+      settings:
+        web-allow-others: true   
+  datasource:
+    url: jdbc:h2:mem:webauditDb;DB_CLOSE_DELAY=-1
+    username: sa
+    password: 
+    driver-class-name: org.h2.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+        show_sql: false
+        ddl-auto: create-drop
+  
+  rabbitmq:
+   host: ${rabbitmq.host.name:192.168.99.100}
+   port: ${rabbitmq.port:5672}
+
+  cloud:
+    stream:
+      bindings:
+        webaudit-in: 
+          destination: webaudit
+          group: audit
+
+    bus:
+     trace: 
+      enabled: ${configserver.bus.trace:true}
+     destination: ${configserver.bus.destination:busXchange} 
+
+  sleuth:
+    enabled: true
+    sampler:
+      probability: 1.0
+  zipkin:
+    enabled: true
+    base-url: ${zipkin.url:http://192.168.99.100:9411/}
+logging:
+  pattern: 
+    level: "[%X{X-B3-TraceId} : %X{X-B3-SpanId}] %-5p [%t] %C{2} - %m%n"
+  level:
+    root: INFO
+    com.spring.microservices: DEBUG
+    
+#webauditms.logging.pattern: 
+#webauditms.logging.root.level: info
+#webauditms.logging.app.level: debug
+#webauditms.configserverurl: http://192.168.99.100:8888
+config.server.uri: http://localhost:8888
+webauditms.eureka.instance.zone: zone_8761
+webauditms.eureka.instance.leaseRenewalIntervalInSeconds: 2
+webauditms.eureka.instance.leaseExpirationDurationInSeconds: 5
+webauditms.eureka.client.registerWithEureka: true
+webauditms.eureka.client.fetchRegistry: true
+webauditms.eureka.client.prefer-same-zone-eureka: true
+webauditms.eureka.client.service-registry-url: http://localhost:8761/eureka
+webauditms.hystrix.metrics.polling-interval-ms: 3000

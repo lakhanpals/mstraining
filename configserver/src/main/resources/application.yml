@@ -5,8 +5,17 @@ spring:
     config:
      server:
        git:
-        uri: c:/mstraining-config
+        #uri: c:/mstraining-config
+        #uri: git@github.ibm.com:Sandeep-Lakhanpal/msconfig.git
+        uri: git@github.com:lakhanpals/msconfig.git
+    bus:
+      enabled: true
+      destination: configXchangebus
 
+  rabbitmq:
+    host: ${rabbitmq.host:192.168.99.100}
+    port: 5672
+    
 management:
   endpoints:
     web:
