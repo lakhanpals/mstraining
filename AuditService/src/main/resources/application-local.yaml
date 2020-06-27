@@ -51,12 +51,12 @@ logging:
 #webauditms.logging.root.level: info
 #webauditms.logging.app.level: debug
 #webauditms.configserverurl: http://192.168.99.100:8888
-config.server.uri: http://localhost:8888
+config.server.uri: http://192.168.99.100:8888
 webauditms.eureka.instance.zone: zone_8761
 webauditms.eureka.instance.leaseRenewalIntervalInSeconds: 2
 webauditms.eureka.instance.leaseExpirationDurationInSeconds: 5
 webauditms.eureka.client.registerWithEureka: true
 webauditms.eureka.client.fetchRegistry: true
 webauditms.eureka.client.prefer-same-zone-eureka: true
-webauditms.eureka.client.service-registry-url: http://localhost:8761/eureka
+webauditms.eureka.client.service-registry-url: http://http://192.168.99.100:8761/eureka
 webauditms.hystrix.metrics.polling-interval-ms: 3000

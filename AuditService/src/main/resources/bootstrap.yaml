@@ -5,7 +5,7 @@ spring:
     name: webauditms
   cloud:
     config:
-      uri: ${config.server.uri:http://localhost:8888}
+      uri: ${config.server.uri:http://192.168.99.100:8888}
       fail-fast: true
       label: ${webauditms.configserver.labels:master}
   main:

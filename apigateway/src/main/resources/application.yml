@@ -4,7 +4,7 @@ eureka:
     register-with-eureka: true
     prefer-same-zone-eureka: true
     service-url:
-      defaultZone: ${eureka.url:http://localhost:8761/eureka}
+      defaultZone: ${eureka.url:http://192.168.99.100:8761/eureka}
   instance:
     instanceId: ${spring.application.name}:${random.int}
 

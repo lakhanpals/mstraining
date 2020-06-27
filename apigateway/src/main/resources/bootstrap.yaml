@@ -3,7 +3,7 @@ spring:
     name: apigateway
   cloud:
     config:
-      uri: ${config.url:http://localhost:8888}
+      uri: ${config.url:http://192.168.99.100:8888}
   profiles:
     active: dev
     
