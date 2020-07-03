@@ -8853,3 +8853,105 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2020-06-27 11:07:29,609 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2020-06-27 11:07:29,629 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-06-27 11:07:29,647 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\mstraining\productms\src\test\resources
+2020-06-27 12:28:01,611 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-27 12:28:01,622 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-27 12:28:01,630 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-27 12:28:01,633 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-27 12:28:01,633 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\mstraining\discountms\src\test\resources
+2020-06-27 12:28:50,741 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-27 12:28:50,762 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-27 12:28:50,767 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-27 12:28:50,772 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-27 12:28:50,772 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\mstraining\discountms\src\test\resources
+2020-06-27 13:03:46,418 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-27 13:03:46,424 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-27 13:03:46,459 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-27 13:03:46,463 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-27 13:03:46,463 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\mstraining\apigateway\src\test\resources
+2020-06-27 17:45:25,279 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-27 17:45:25,380 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-27 17:45:25,385 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-27 17:45:25,388 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-27 17:45:25,389 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\mstraining\eurekaserver\src\test\resources
+2020-06-27 21:54:35,911 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@55bf533d{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2020-06-27 21:54:35,913 [Stop Help Server] INFO  org.eclipse.jetty.server.session - Stopped scavenging
+2020-06-27 21:54:35,981 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@2faaa6b4{/help,null,UNAVAILABLE}
+2020-06-30 14:20:11,912 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-06-30 14:20:50,024 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @198049ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-06-30 14:20:50,275 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-22T02:57:37+05:30, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2020-06-30 14:20:50,313 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2020-06-30 14:20:50,313 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2020-06-30 14:20:50,315 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 660000ms
+2020-06-30 14:20:50,365 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7d067571{/help,null,AVAILABLE}
+2020-06-30 14:20:50,432 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1cf27638{HTTP/1.1,[http/1.1]}{127.0.0.1:63111}
+2020-06-30 14:20:50,432 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @198458ms
+2020-06-30 14:21:06,149 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 14:21:06,154 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-30 14:21:06,223 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-30 14:21:06,227 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 14:21:06,227 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\mstraining\AuditService\src\test\resources
+2020-06-30 14:21:16,071 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 14:21:16,072 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-30 14:21:16,107 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-30 14:21:16,111 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 14:21:16,111 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\mstraining\apigateway\src\test\resources
+2020-06-30 14:21:20,041 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 14:21:20,042 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-30 14:21:20,057 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-30 14:21:20,062 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 14:21:20,062 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\mstraining\discountms\src\test\resources
+2020-06-30 14:21:21,974 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 14:21:21,974 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-30 14:21:21,996 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-30 14:21:21,999 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 14:21:21,999 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\mstraining\eurekaserver\src\test\resources
+2020-06-30 14:22:04,326 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@1cf27638{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2020-06-30 14:22:04,327 [Stop Help Server] INFO  org.eclipse.jetty.server.session - Stopped scavenging
+2020-06-30 14:22:04,358 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7d067571{/help,null,UNAVAILABLE}
+2020-06-30 14:22:23,043 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-06-30 14:22:27,556 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @21565ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-06-30 14:22:27,712 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-22T02:57:37+05:30, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2020-06-30 14:22:27,745 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2020-06-30 14:22:27,745 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2020-06-30 14:22:27,747 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 660000ms
+2020-06-30 14:22:27,782 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5d40a0ee{/help,null,AVAILABLE}
+2020-06-30 14:22:27,812 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3e733ac8{HTTP/1.1,[http/1.1]}{127.0.0.1:63132}
+2020-06-30 14:22:27,812 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @21822ms
+2020-06-30 14:22:45,597 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 14:22:45,606 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-30 14:22:45,658 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-30 14:22:45,682 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 14:22:45,682 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\mstraining\AuditService\src\test\resources
+2020-06-30 14:22:49,137 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 14:22:49,139 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-30 14:22:49,172 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-30 14:22:49,270 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 14:22:49,270 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\mstraining\apigateway\src\test\resources
+2020-06-30 14:22:51,826 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 14:22:51,826 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-30 14:22:51,842 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-30 14:22:51,842 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 14:22:51,842 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\mstraining\configserver\src\test\resources
+2020-06-30 14:22:54,541 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 14:22:54,541 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-30 14:22:54,596 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-30 14:22:54,617 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 14:22:54,617 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\mstraining\discountms\src\test\resources
+2020-06-30 14:22:56,313 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 14:22:56,313 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-30 14:22:56,363 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-30 14:22:56,365 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 14:22:56,365 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\mstraining\eurekaserver\src\test\resources
+2020-06-30 14:23:00,330 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 14:23:00,330 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-30 14:23:00,369 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-30 14:23:00,372 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 14:23:00,372 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\mstraining\productms\src\test\resources
+2020-06-30 15:57:27,874 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 15:57:27,879 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-30 15:57:27,888 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-30 15:57:27,893 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-30 15:57:27,893 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\mstraining\AuditService\src\test\resources
+2020-06-30 21:50:17,114 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@3e733ac8{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2020-06-30 21:50:17,264 [Stop Help Server] INFO  org.eclipse.jetty.server.session - Stopped scavenging
+2020-06-30 21:50:17,414 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@5d40a0ee{/help,null,UNAVAILABLE}
